@@ -1,0 +1,78 @@
+*::before,
+*::after,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: #d47677;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  background-color: #f0f0f0;
+  padding: 30px;
+}
+
+.remember-me__container {
+  align-self: flex-start;
+}
+
+.form__header {
+  margin: 10px 0 20px 0;
+  color: #333;
+  font-weight: 300;
+}
+
+.form__username,
+.form__password {
+  padding: 15px;
+  width: 450px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+}
+
+.form__username::placeholder,
+.form__password::placeholder {
+  color: #aaa;
+}
+
+.form__button {
+  width: 100px;
+  padding: 10px;
+  background-color: #9dd8d4;
+  color: #ffffff;
+  border: none;
+  margin: 40px 0;
+  text-transform: uppercase;
+}
+
+
+.remember-me__container {
+  display: flex;
+  align-items: center;
+}
+
+.remember-me__text {
+  color: #aaa;
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.remember-me__checkbox {
+  margin-left: 25px;
+  border: none;
+}
